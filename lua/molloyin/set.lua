@@ -31,3 +31,6 @@ vim.opt.isfname:append("@-@")
 vim.opt.updatetime = 50
 
 vim.opt.colorcolumn = "80"
+
+vim.cmd('highlight CursorLine guibg=#C0C0C0 ctermbg=8')
+
