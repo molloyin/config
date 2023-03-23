@@ -1,2 +1,2 @@
 .DS_store
-~/.config/github-copilot/hosts.json
+**/hosts.json
