@@ -4,7 +4,19 @@ window:
     lines: 74
 
 font:
-  size: 12
+  size: 14
+
+padding:
+  x: 12
+  y: 12
+dynamic_padding: true
+
+decorations: full
+
+# allows for terminal history. scrolls 3x
+scrolling:
+  history: 10000
+  multiplier: 3
 
 colors:
   primary:
@@ -47,3 +59,5 @@ colors:
     end:
       foreground: "#6e6a86"
       background: "#1f1d2e"
+
+draw_bold_text_with_bright_colors: true
