@@ -7,6 +7,7 @@ return require('packer').startup(function(use)
     -- Packer can manage itself
     use 'wbthomason/packer.nvim'
 
+--[[
     use {
         "zbirenbaum/copilot.lua",
         cmd = "Copilot",
@@ -26,6 +27,7 @@ return require('packer').startup(function(use)
             require("copilot_cmp").setup()
         end
     }
+]]--
 
     use {
         'nvim-telescope/telescope.nvim', tag = '0.1.1',
@@ -63,6 +65,7 @@ return require('packer').startup(function(use)
         end
     }
 
+    use("github/copilot.vim")
     use("tpope/vim-fugitive")
     use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
     use("mbbill/undotree")
