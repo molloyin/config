@@ -1,4 +1,4 @@
-export PATH="$PATH:/Users/molloyin/Library/Python/3.9/bin"
+alias python3="/usr/bin/python3"
 alias vim="~/code/apps/nvim-macos/bin/nvim"
 alias ls="ls -G"
 
