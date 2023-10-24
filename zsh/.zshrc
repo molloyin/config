@@ -1,6 +1,6 @@
-alias python3="/usr/bin/python3"
 alias vim="~/code/apps/nvim-macos/bin/nvim"
 alias ls="ls -G"
+alias rd="npm run dev"
 
 export CLICOLOR=1
 export LSCOLORS=cxgxfxexbxegedabagacad
